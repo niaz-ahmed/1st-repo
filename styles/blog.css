@@ -1,30 +1,35 @@
-div{
-    background-color: tomato;
-    border: 5px solid rgb(139, 0, 0);
-    border-radius: 10px;
-    padding: 10px;
-    text-align:justify;
-    border-top:40px solid darkred;
-    margin: 50px;
+* {
+  margin: 0;
+  padding: 0;
 }
-nav{
-    display:flexbox;
-    border: 2px solid yellow;
-    margin: 0;
-    padding: 0;
+div {
+  background-color: tomato;
+  border: 5px solid rgb(139, 0, 0);
+  border-radius: 10px;
+  padding: 10px;
+  text-align: justify;
+  border-top: 40px solid darkred;
+  margin: 10px;
+}
+nav {
+  border: 1px solid yellow;
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+}
+#nav-list {
+  display: inline;
+  color: white;
+  padding: 1px;
 }
 
-li{
-    display:inline-block;
-    border: 2px solid yellow;
-    margin: 0;
-    padding: ;
-    color: white;
-    height:;
-    
+.main {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(22, 5, 39);
+  border-radius: 0px;
 }
-.main{
-    margin: 0;
-    padding: 0;
-    background-color: rgb(22, 5, 39);
+button{
+    background-color: navy;
+
 }
