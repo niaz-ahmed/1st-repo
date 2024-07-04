@@ -1,9 +1,30 @@
 div{
     background-color: tomato;
-    border: 5px solid darkred;
+    border: 5px solid rgb(139, 0, 0);
     border-radius: 10px;
     padding: 10px;
     text-align:justify;
     border-top:40px solid darkred;
     margin: 50px;
+}
+nav{
+    display:flexbox;
+    border: 2px solid yellow;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display:inline-block;
+    border: 2px solid yellow;
+    margin: 0;
+    padding: ;
+    color: white;
+    height:;
+    
+}
+.main{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(22, 5, 39);
 }
